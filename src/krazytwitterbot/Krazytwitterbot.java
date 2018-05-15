@@ -25,10 +25,10 @@ public class Krazytwitterbot {
         ConfigurationBuilder cf = new ConfigurationBuilder();
         
         cf.setDebugEnabled(true)
-                .setOAuthConsumerKey("QlvQa4UOL2lUqkM2cz4liWE6p")
-                .setOAuthConsumerSecret("fBkhjCOsCOQS7Q1xTg87KaZSaWziOTZrP4QT8ZBS19KlPGStlf")
-                .setOAuthAccessToken("3309410744-v7wBeD01byqftUDKEVFCt9dVmbDCc17rmoRFvGN")
-                .setOAuthAccessTokenSecret("8OxBWE8ONr6cp0w0Wchmvy8tzMyrAYWPCkun9bah3YkLa");
+                .setOAuthConsumerKey("consumer key")
+                .setOAuthConsumerSecret("consumer secret")
+                .setOAuthAccessToken("access token")
+                .setOAuthAccessTokenSecret("access token key");
         
         TwitterFactory tf = new TwitterFactory(cf.build());
         twitter4j.Twitter twitter = tf.getInstance();
